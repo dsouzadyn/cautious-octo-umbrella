@@ -1,0 +1,46 @@
+{
+  "connection": "default",
+  "collectionName": "event",
+  "info": {
+    "name": "event",
+    "description": ""
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "start_time": {
+      "type": "date"
+    },
+    "end_time": {
+      "type": "date"
+    },
+    "users": {
+      "collection": "user",
+      "via": "events",
+      "dominant": true,
+      "plugin": "users-permissions"
+    },
+    "capacity": {
+      "type": "integer"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "type": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "subtype": {
+      "type": "string"
+    },
+    "cumpolsory": {
+      "type": "boolean"
+    }
+  }
+}

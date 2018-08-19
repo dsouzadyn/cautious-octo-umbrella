@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/checker",
+      "handler": "Checker.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/checker/:_id",
+      "handler": "Checker.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/checker",
+      "handler": "Checker.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/checker/:_id",
+      "handler": "Checker.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/checker/:_id",
+      "handler": "Checker.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/checker/:_id/validate",
+      "handler": "Checker.gvalidate",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

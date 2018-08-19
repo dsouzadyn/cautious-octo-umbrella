@@ -1,0 +1,23 @@
+.slide-selector {
+  display: flex;
+  overflow-x: scroll;
+  background: #e24e42;
+}
+.slide-selector-item {
+  display: inline-block;
+  min-width: 240px;
+  padding-right: 16px;
+  margin: 16px;
+  background: #e24e42;
+  color: #fff;
+  border-right: 1px solid #fff
+}
+
+.poster-container {
+  width: 240px;
+  margin: 0 auto;
+}
+
+.item {
+  padding: 16px;
+}

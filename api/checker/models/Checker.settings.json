@@ -1,0 +1,18 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "checker",
+    "description": ""
+  },
+  "attributes": {
+    "is_valid": {
+      "type": "boolean"
+    },
+    "user": {
+      "model": "user",
+      "via": "checker",
+      "plugin": "users-permissions"
+    }
+  }
+}
